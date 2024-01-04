@@ -19,7 +19,7 @@ class TiktokApp extends StatelessWidget {
         child: const Text(
           'data',
           style: TextStyle(
-            fontSize: 44,
+            fontSize: 48,
           ),
         ),
       ),
