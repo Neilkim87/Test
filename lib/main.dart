@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'constants/sizes.dart';
 
 void main() {
   runApp(const TiktokApp());
@@ -16,10 +17,13 @@ class TiktokApp extends StatelessWidget {
         primaryColor: const Color(0xFFE9435A),
       ),
       home: Container(
-        child: const Text(
-          'data',
-          style: TextStyle(
-            fontSize: 48,
+        child: const Padding(
+          padding: EdgeInsets.all(Sizes.size12),
+          child: Text(
+            'data',
+            style: TextStyle(
+              fontSize: 48,
+            ),
           ),
         ),
       ),
