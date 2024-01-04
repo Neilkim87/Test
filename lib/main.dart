@@ -15,7 +15,14 @@ class TiktokApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: const Color(0xFFE9435A),
       ),
-      home: Container(),
+      home: Container(
+        child: const Text(
+          'data',
+          style: TextStyle(
+            fontSize: 44,
+          ),
+        ),
+      ),
     );
   }
 }
