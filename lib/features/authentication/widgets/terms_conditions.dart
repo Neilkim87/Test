@@ -13,6 +13,7 @@ class TermsandConditions extends StatelessWidget {
     return Column(
       children: [
         RichText(
+          textAlign: TextAlign.center,
           text: const TextSpan(
             text: 'By continuing, you agree to our ',
             style: TextStyle(
